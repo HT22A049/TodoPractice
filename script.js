@@ -5,5 +5,6 @@ document.getElementById("add-btn").addEventListener("click", () => {
 	const li = document.createElement("li"); // 新しい li 要素を作る
 	li.textContent = inputText; // 先ほど取得した文字をセット
 	document.getElementById("item-list").appendChild(li); // ul に追加
+	document.getElementById("input-text").value = ""; // 入力欄を空にする
 });
 
