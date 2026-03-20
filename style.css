@@ -1,0 +1,23 @@
+#input-area {
+	display: flex;
+}
+
+body {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+input {
+	margin: 5px;
+}
+
+button {
+	margin: 5px;
+}
+
+li {
+	display: flex;
+	justify-content: space-between;
+	border: 1px solid black;
+}
